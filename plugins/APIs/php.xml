@@ -113,6 +113,13 @@
 				<Param name="[bool preserve_keys=false]"/>
 			</Overload>
 		</KeyWord>
+		<KeyWord name="array_column" func="yes">
+			<Overload retVal="array|false">
+				<Param name="array keys"/>
+				<Param name="array values"/>
+				<Param name="[mixed index_key=null]"/>
+			</Overload>
+		</KeyWord>
 		<KeyWord name="array_combine" func="yes">
 			<Overload retVal="array|false">
 				<Param name="array keys"/>
